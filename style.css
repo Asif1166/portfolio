@@ -6,20 +6,20 @@ body{
     padding: 0;
     margin: 0;
 }
-.navbar{
-    
-    width: 100%;
-    position: relative;
-    
-}
+
 nav{
-    width: 100%;
-    margin: auto;
-    padding: 20px 0;
+    
+    
+    padding: 20px;
     display: flex;
-    align-items: center;
+    
     justify-content: space-between;
     background: burlywood;
+    border: 3px solid;
+    padding: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 h3{
     
@@ -32,6 +32,8 @@ nav ul li{
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
+    padding-right: 20px;
+    padding-top: 15px;
     
 }
 nav ul li a{
@@ -42,20 +44,28 @@ nav ul li a{
 }
 nav ul li a:hover{
     color: aqua;
+    padding: 10px 10px;
+    background-image: linear-gradient(chocolate, #000);
+    border-radius: 10%;
+    
 }
 section{
     display: flex;
 }
 .half-width{
     width: 50%;
-   
+   padding-top: 3%;
    padding-left: 5%;
-   background-image: linear-gradient(burlywood, #fff);
+   
 }
-.half-width img{
-    width: 70%;
+
+.background{
+    background-image: linear-gradient(burlywood, #fff);
+}
+img{
+    padding-left: 30%;
     border-radius: 100%;
-    padding-left: 20%;
+    
 }
 
 span{
@@ -84,7 +94,9 @@ p{
     
 }
 .button:hover{
-    color: chocolate;
-    background-image: inherit;
+    
+    
+   font-size: 20px;
+   
     
 }
